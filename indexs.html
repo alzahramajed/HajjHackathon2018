@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+
+<style type="text/css">
+	
+ #vid {
+
+ position: relative;
+ left:0.3cm;
+      }
+
+
+
+ #map {
+
+  
+  position: relative;
+   top:0cm;
+    width: 67cm;
+    height: 11cm;
+      }
+      #logo1{
+position: relative;
+left:39cm;
+top:0.5cm;
+
+
+      }
+
+</style>
+
+		<title>Forty by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload" >
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+var d = new Date();
+var n = d.getHours();
+if(n==7){
+$("#m1").attr("src","images1/img2.png");
+$("#vid").attr("src","https://www.youtube.com/embed/uBvVPj2a2fA");
+}
+/*$('#vid https://www.youtube.com/embed/AQ3gkLhRCjE?ecver=1')[0].load();
+//$("#vid")[0].load();
+.html('<source src=" https://www.youtube.com/embed/AQ3gkLhRCjE?ecver=1" ></source>' );*/
+
+/*var video = $('#vid https://www.youtube.com/embed/AQ3gkLhRCjE?ecver=1')[0];
+video.src = 'https://www.youtube.com/embed/uBvVPj2a2fA';
+video.load();
+video.play();*/
+
+if(n==4)
+$("#m1").attr("src","images1/img6.png");
+if(n==2)
+$("#m1").attr("src","images1/img6.png");
+if(n==4)
+$("#m1").attr("src","images1/img6.png");
+if(n==1)
+$("#m1").attr("src","images1/img6.png");
+if(n==8)
+$("#m1").attr("src","images1/img6.png");
+if(n==1)
+$("#m1").attr("src","images1/img6.png");
+    });
+
+/*function ChangeImg(){
+
+var d = new Date();
+var n = d.getHours();
+
+ if (n==7)
+
+document.getElementById("manasek").src = "images1/img1.png";
+//document.getElementById("demo").innerHTML="here5";
+ if (n==5)
+var im=document.getElementById("manasek");
+im.src="images1/img5.png";
+document.getElementById("demo").innerHTML="here5";
+
+ if (n==5)
+document.getElementById("manasek").src = "images1/img3.png";
+
+
+ if (n==7)
+
+document.getElementById("manasek").src= "images1/img4.png";
+
+
+ if (n==8)
+
+document.getElementById("manasek").src= "images1/img5.png";
+
+
+ if (n==4)
+
+document.getElementById("manasek").src= "images1/img6.png";
+
+
+}*/
+
+
+</script>
+
+
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMfeJ2e34AEwql7TctdMdnh-DAvODm_xA&callback=initMap">
+    </script>
+
+
+
+    <script>
+
+      function initMap() {
+        var myLatLng = {lat: 21.422463, lng: 39.826197};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map
+        });
+      }
+    </script>
+
+
+  <img id="logo1" src="logo.png">
+
+		<!-- Wrapper -->
+			<div id="wrapper" >
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+									
+							<img  id="m1" src="images1/img1.png" >
+							
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							
+								
+									
+									<div id="vid" ><iframe width="900" height="470" src="https://www.youtube.com/embed/AQ3gkLhRCjE?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
+								
+
+
+
+								<article>
+								<div id="map" ></div>
+								</article>
+
+							
+
+					</div>
+
+				<!-- Contact -->
+					
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
